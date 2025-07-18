@@ -39,4 +39,12 @@ EDA involved the exploring of the Data to answer some questions about the Data s
 - Which categories have products with the highest discounts?
 - Identify the top 5 products in terms of rating and number of reviews combined.
 
-     
+### Data Analysis
+This is where we include some formulas during your analysis
+```MS Excel
+=IF([@[Actual Price 2]]<200,"<₹200",IF([@[Actual Price 2]]<=500,"₹200-₹500",">₹500"))
+=IFERROR(E2*J2,"N/A")
+=I2*J2
+
+
+
