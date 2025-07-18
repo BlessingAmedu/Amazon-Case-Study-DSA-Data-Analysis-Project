@@ -46,5 +46,8 @@ This is where we include some formulas during your analysis
 =IFERROR(E2*J2,"N/A")
 =I2*J2
 
+### Data Visualization
+
+
 
 
